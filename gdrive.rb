@@ -7,6 +7,6 @@ class Gdrive < Formula
   version "1.3.0"
 
   def install
-    bin.install "uc" => "gdrive"
+    bin.install "uc" => "drive"
   end
 end
