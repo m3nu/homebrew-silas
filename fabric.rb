@@ -2,14 +2,14 @@ require "formula"
 
 class Fabric < Formula
   homepage "http://www.fabfile.org/"
-  url "https://pypi.python.org/packages/source/F/Fabric/Fabric-1.10.0.tar.gz"
-  sha256 "edb2702b4655600f0a49a97e654c79f5b21490ce30f77d1313dd851f0b60335a"
+  url "https://pypi.python.org/packages/source/F/Fabric/Fabric-1.10.1.tar.gz"
+  sha256 "ab9c54e9496c89ae96ed4aa669e01c792376d75a7389ec90d4292282cc26f008"
 
   depends_on :python if MacOS.version <= :snow_leopard
 
   resource "paramiko" do
-    url "https://pypi.python.org/packages/source/p/paramiko/paramiko-1.15.1.tar.gz"
-    sha256 "6ed97e2281bb48728692cdc621f6b86a65fdc1d46b178ce250cfec10b977a04c"
+    url "https://pypi.python.org/packages/source/p/paramiko/paramiko-1.15.2.tar.gz"
+    sha256 "4f56a671a3eecbb76e6143e6e4ca007d503a39aa79aa9e14ade667fa53fd6e55"
   end
 
   def install
