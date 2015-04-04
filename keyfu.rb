@@ -2,8 +2,9 @@ require "formula"
 
 class Keyfu < Formula
   homepage "http://www.keyfu.com"
-  url "https://github.com/silas/keyfu/releases/download/0.3.0/keyfu_darwin_amd64.zip"
-  sha256 "2d5cc33a5e98204f3059271c00b1d1f73e6ad1d2ed4758d53dc0742f3e9157d3"
+  version "0.4.0"
+  url "https://github.com/silas/keyfu/releases/download/#{version}/keyfu_darwin_amd64.zip"
+  sha256 "3a5ef2ce6227f0be28fe5b38cd44ad594a212fc2dc15cde3b2509737405acca1"
 
   depends_on :arch => :x86_64
 
@@ -21,9 +22,6 @@ class Keyfu < Formula
       <key>ProgramArguments</key>
       <array>
         <string>#{opt_bin}/keyfu</string>
-        <!--
-        <string>-c=#{etc}/keyfu.conf</string>
-        -->
       </array>
       <key>EnvironmentVariables</key>
       <dict>
