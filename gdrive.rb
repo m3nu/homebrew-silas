@@ -2,9 +2,9 @@ require "formula"
 
 class Gdrive < Formula
   homepage "https://github.com/prasmussen/gdrive"
-  url "https://drive.google.com/uc?id=0B3X9GlR6EmbnOWZNdHFaT0trTHc"
-  sha256 "2995ddcf1fe442b5f245487a3e079b135a5b4f41cb96b771a9e3d2f179477ef0"
-  version "1.3.0"
+  url "https://drive.google.com/uc?id=0B3X9GlR6EmbnVjIzMDRqck1aekE"
+  sha256 "b9b75776d131e1e0e61e012cdae3f67b892a4a39a5f828719f359fe16e99049b"
+  version "1.9.0"
 
   def install
     bin.install "uc" => "drive"
